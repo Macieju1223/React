@@ -5,13 +5,13 @@
   width: 50rem;
   max-width: 95%;
   border-radius: 12px;
-  box-shadow: 0 10px 40px rebeccapurple;
+  box-shadow: 10px 10px 10px black;
   }
   
   .new-expense__control label {
-    font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
+    margin-left: 1rem;
     
   }
   
@@ -29,4 +29,5 @@
   
   .new-expense__actions {
     text-align: right;
+    margin-bottom: 0.5rem;
   }

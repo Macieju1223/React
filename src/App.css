@@ -14,20 +14,34 @@
 }
 
 .App-header {
-  background-color: grey;
+  background-color: rebeccapurple;
   margin: auto;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
   border-radius: 12px;
   width: 70rem;
   max-width: 95%;
   text-align: center;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 10px aquamarine;
+}
+.App-topic {
+  background-color: crimson;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  display: flex;
+  font-size: large;
+  border-radius: 6rem;
+  width: 10rem;
+  box-shadow: 1px 4px 4px black;
+
 }
 
 .App-link {
