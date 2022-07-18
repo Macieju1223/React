@@ -12,7 +12,7 @@ function Search(props) {
                                 <Form.Control
                                 type="text"
                                 vakue={props.word}
-                                onChange={(word) => props.setWord}
+                                onChange={(e) => props.setWord(e.target.value)}
                                 placeholder="Search for ne image" 
                                 />
                             </Col>
